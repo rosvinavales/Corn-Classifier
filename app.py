@@ -9,7 +9,6 @@ import plotly.express as px
 # 1. SETUP & PATHS
 st.set_page_config(page_title="Corn Seed AI Dashboard", layout="wide")
 
-# !!! CHANGE THIS TO YOUR SHORTCUT FOLDER NAME !!!
 path = '/content/drive/MyDrive/corn/'
 
 @st.cache_resource
