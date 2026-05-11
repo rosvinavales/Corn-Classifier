@@ -13,7 +13,7 @@ colab_path = '/content/drive/MyDrive/corn/'
 if os.path.exists(colab_path):
     path = colab_path
 else:
-    path = 'train.csv' # Look in the same folder as app.py (GitHub mode)
+    path = './' # Look in the same folder as app.py (GitHub mode)
 
 # 2. SETUP & AI MODEL LOADING
 st.set_page_config(page_title="Corn Seed AI Dashboard", layout="wide")
