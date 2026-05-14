@@ -5,3 +5,5 @@ pandas
 numpy
 pillow
 plotly
+matplotlib
+seaborn
